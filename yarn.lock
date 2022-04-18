@@ -3420,10 +3420,10 @@
   "resolved" "https://registry.npmjs.org/silkjs/-/silkjs-1.7.0-0.tgz"
   "version" "1.7.0-0"
 
-"silkymark@^2.0.5":
-  "integrity" "sha512-N1SEQDYhjVSinN3fxbQNCoTKRnBJ6Ev2zUuOGumqY/WD9NSOFTFcY1O8LGil9CdYVdDkgqOZOhOLD7LCsCtDLg=="
-  "resolved" "https://registry.npmjs.org/silkymark/-/silkymark-2.1.0.tgz"
-  "version" "2.1.0"
+"silkymark@^2.2.0":
+  "integrity" "sha512-bJ2jT1InZO6J9bxl/f0K3aC0qsqHf3um8kXCPqG3GXvT1/BTFYhYRsk3Of7Lgn5MHqorJ+WymM1ipTozAiQoFg=="
+  "resolved" "https://registry.npmjs.org/silkymark/-/silkymark-2.2.0.tgz"
+  "version" "2.2.0"
   dependencies:
     "prompt-sync" "^4.2.0"
     "silkjs" "^1.7.0-0"
