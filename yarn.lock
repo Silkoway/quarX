@@ -1170,6 +1170,13 @@
   "resolved" "https://registry.npmjs.org/domino/-/domino-1.0.30.tgz"
   "version" "1.0.30"
 
+"dree@^3.3.6":
+  "integrity" "sha512-uM09Zso/5c0wOJdJ6QfwTmK532Ac/KejfiPJ4NkJyXPUmNeTNWkFMuu51abbvb7jcZaoVZK3ds6B7xfMG8naKA=="
+  "resolved" "https://registry.npmjs.org/dree/-/dree-3.3.6.tgz"
+  "version" "3.3.6"
+  dependencies:
+    "yargs" "^17.4.0"
+
 "duplexer3@^0.1.4":
   "integrity" "sha1-7gHdHKwO08vH/b6jfcCo8c4ALOI="
   "resolved" "https://registry.npmjs.org/duplexer3/-/duplexer3-0.1.4.tgz"
@@ -2353,6 +2360,13 @@
     "promise-retry" "^2.0.1"
     "socks-proxy-agent" "^6.0.0"
     "ssri" "^8.0.0"
+
+"makeerror@1.0.12":
+  "integrity" "sha512-JmqCvUhmt43madlpFzG4BQzG2Z3m6tvQDNKdClZnO3VbIudJYmxsT0FNJMeiB2+JTSlTQTSbU8QdesVmwJcmLg=="
+  "resolved" "https://registry.npmjs.org/makeerror/-/makeerror-1.0.12.tgz"
+  "version" "1.0.12"
+  dependencies:
+    "tmpl" "1.0.5"
 
 "map-age-cleaner@^0.1.1":
   "integrity" "sha512-bJzx6nMoP6PDLPBFmg7+xRKeFZvFboMrGlxmNj9ClvX53KrmvM5bXFXEWjbz4cz1AFn+jWJ9z/DJSz7hrs0w3w=="
@@ -3710,6 +3724,11 @@
   dependencies:
     "rimraf" "^2.6.3"
 
+"tmpl@1.0.5":
+  "integrity" "sha512-3f0uOEAQwIqGuWW2MVzYg8fV/QNnc/IpuJNG837rLuczAaLVHslWHZQj4IGiEl5Hs3kkbhwL9Ab7Hrsmuj+Smw=="
+  "resolved" "https://registry.npmjs.org/tmpl/-/tmpl-1.0.5.tgz"
+  "version" "1.0.5"
+
 "to-readable-stream@^1.0.0":
   "integrity" "sha512-Iq25XBt6zD5npPhlLVXGFN3/gyR2/qODcKNNyTMd4vbm39HUaOiAM4PMq0eMVC/Tkxz+Zjdsc55g9yyz+Yq00Q=="
   "resolved" "https://registry.npmjs.org/to-readable-stream/-/to-readable-stream-1.0.0.tgz"
@@ -3871,6 +3890,13 @@
     "core-util-is" "1.0.2"
     "extsprintf" "^1.2.0"
 
+"walker@^1.0.8":
+  "integrity" "sha512-ts/8E8l5b7kY0vlWLewOkDXMmPdLcVV4GmOQLyxuSswIJsweeFZtAsMF7k1Nszz+TYBQrlYRmzOnr398y1JemQ=="
+  "resolved" "https://registry.npmjs.org/walker/-/walker-1.0.8.tgz"
+  "version" "1.0.8"
+  dependencies:
+    "makeerror" "1.0.12"
+
 "wcwidth@^1.0.1":
   "integrity" "sha1-8LDc+RW8X/FSivrbLA4XtTLaL+g="
   "resolved" "https://registry.npmjs.org/wcwidth/-/wcwidth-1.0.1.tgz"
@@ -3971,6 +3997,19 @@
   "version" "21.0.1"
 
 "yargs@^17.0.1":
+  "integrity" "sha512-WSZD9jgobAg3ZKuCQZSa3g9QOJeCCqLoLAykiWgmXnDo9EPnn4RPf5qVTtzgOx66o6/oqhcA5tHtJXpG8pMt3g=="
+  "resolved" "https://registry.npmjs.org/yargs/-/yargs-17.4.1.tgz"
+  "version" "17.4.1"
+  dependencies:
+    "cliui" "^7.0.2"
+    "escalade" "^3.1.1"
+    "get-caller-file" "^2.0.5"
+    "require-directory" "^2.1.1"
+    "string-width" "^4.2.3"
+    "y18n" "^5.0.5"
+    "yargs-parser" "^21.0.0"
+
+"yargs@^17.4.0":
   "integrity" "sha512-WSZD9jgobAg3ZKuCQZSa3g9QOJeCCqLoLAykiWgmXnDo9EPnn4RPf5qVTtzgOx66o6/oqhcA5tHtJXpG8pMt3g=="
   "resolved" "https://registry.npmjs.org/yargs/-/yargs-17.4.1.tgz"
   "version" "17.4.1"
