@@ -44,10 +44,12 @@
   "dependencies": {
     "@electron/remote": "^2.0.8",
     "custom-electron-titlebar": "^4.1.0",
+    "dree": "^3.3.6",
     "electron-squirrel-startup": "^1.0.0",
     "parsoid": "^0.3.0",
     "silkjs": "^1.7.0-0",
-    "silkymark": "^2.2.0"
+    "silkymark": "^2.2.0",
+    "walker": "^1.0.8"
   },
   "devDependencies": {
     "@electron-forge/cli": "^6.0.0-beta.63",
