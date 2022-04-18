@@ -1,4 +1,20 @@
 
+/* Style the button that is used to open and close the collapsible content */
+.collapsible {
+  cursor: pointer;
+}
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+.active, .collapsible:hover {
+  background-color: rgb(23, 23, 23);
+}
+
+
+/* Style the collapsible content. Note: hidden by default */
+.content {
+  display: none;
+  overflow: hidden;
+}
 
 body {
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica,
@@ -15,6 +31,7 @@ body {
   --editor-text-bg: rgb(50, 50, 50);
   --file-explorer-background: rgb(82, 82, 82);
   --file-explorer-file-background: rgb(50, 50, 50);
+  --file-explorer-file-background-selected: rgb(43, 43, 43);
 }
 
 #editor {
@@ -121,14 +138,23 @@ body {
   bottom: 0%;
 }
 .file {
-  width: calc(20vw - 1rem);
+  width: calc(20vw - 2rem);
   height: 5vh;
   background: var(--file-explorer-file-background);
   border-radius: 1rem;
   display: flex;
+  justify-content: space-between;
   align-items: center;
+
   padding-left: 1rem;
-  color: white
+  padding-right: 1rem;
+  color: white;
+  border: 0;
+  font-size: 1rem;
+  font-family:  -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica !important;
+}
+button.file {
+  width: 20vw !important;
 }
 .slider:before {
   position: absolute;
@@ -284,28 +310,6 @@ input:checked + .slider:before {
 
 
 
-/* Style the button that is used to open and close the collapsible content */
-.collapsible {
-  color: #444;
-  cursor: pointer;
-  padding: 18px;
-  width: 100%;
-  border: none;
-  color: white;
-  text-align: left;
-  outline: none;
-  font-size: 15px;
-}
-
-/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
-.active, .collapsible:hover {
-  background-color: rgb(23, 23, 23);
-}
-
-/* Style the collapsible content. Note: hidden by default */
-.content {
-  padding: 0 18px;
-  display: none;
-  overflow: hidden;
-  background-color: var(--file-explorer-file-background);
+.selected {
+  background: var(--file-explorer-file-background-selected)
 }
